@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		C4DB4F5F22AC5090004ECB93 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F5E22AC5090004ECB93 /* main.swift */; };
+		C4DB4F7922AC51F7004ECB93 /* key.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F7422AC51F7004ECB93 /* key.swift */; };
+		C4DB4F7A22AC51F7004ECB93 /* hotkey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F7522AC51F7004ECB93 /* hotkey.swift */; };
+		C4DB4F7B22AC51F7004ECB93 /* stringManipulation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F7622AC51F7004ECB93 /* stringManipulation.swift */; };
+		C4DB4F7C22AC51F7004ECB93 /* keycodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F7722AC51F7004ECB93 /* keycodes.swift */; };
+		C4DB4F7D22AC51F8004ECB93 /* loopManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F7822AC51F7004ECB93 /* loopManager.swift */; };
+		C4DB4F7F22AC521C004ECB93 /* binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F7E22AC521C004ECB93 /* binding.swift */; };
+		C4DB4F8122AC6A26004ECB93 /* codeRunner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB4F8022AC6A26004ECB93 /* codeRunner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +30,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C4BC34E9230CC5F60044B2BA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C4DB4F5B22AC5090004ECB93 /* GShortcuts */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GShortcuts; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DB4F5E22AC5090004ECB93 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		C4DB4F7422AC51F7004ECB93 /* key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = key.swift; sourceTree = "<group>"; };
+		C4DB4F7522AC51F7004ECB93 /* hotkey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hotkey.swift; sourceTree = "<group>"; };
+		C4DB4F7622AC51F7004ECB93 /* stringManipulation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stringManipulation.swift; sourceTree = "<group>"; };
+		C4DB4F7722AC51F7004ECB93 /* keycodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = keycodes.swift; sourceTree = "<group>"; };
+		C4DB4F7822AC51F7004ECB93 /* loopManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loopManager.swift; sourceTree = "<group>"; };
+		C4DB4F7E22AC521C004ECB93 /* binding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = binding.swift; sourceTree = "<group>"; };
+		C4DB4F8022AC6A26004ECB93 /* codeRunner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = codeRunner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +56,7 @@
 		C4DB4F5222AC5090004ECB93 = {
 			isa = PBXGroup;
 			children = (
+				C4BC34E9230CC5F60044B2BA /* README.md */,
 				C4DB4F5D22AC5090004ECB93 /* GShortcuts */,
 				C4DB4F5C22AC5090004ECB93 /* Products */,
 			);
@@ -57,7 +73,14 @@
 		C4DB4F5D22AC5090004ECB93 /* GShortcuts */ = {
 			isa = PBXGroup;
 			children = (
+				C4DB4F7E22AC521C004ECB93 /* binding.swift */,
+				C4DB4F7522AC51F7004ECB93 /* hotkey.swift */,
+				C4DB4F7422AC51F7004ECB93 /* key.swift */,
+				C4DB4F7722AC51F7004ECB93 /* keycodes.swift */,
+				C4DB4F7822AC51F7004ECB93 /* loopManager.swift */,
+				C4DB4F7622AC51F7004ECB93 /* stringManipulation.swift */,
 				C4DB4F5E22AC5090004ECB93 /* main.swift */,
+				C4DB4F8022AC6A26004ECB93 /* codeRunner.swift */,
 			);
 			path = GShortcuts;
 			sourceTree = "<group>";
@@ -119,7 +142,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DB4F8122AC6A26004ECB93 /* codeRunner.swift in Sources */,
+				C4DB4F7C22AC51F7004ECB93 /* keycodes.swift in Sources */,
+				C4DB4F7D22AC51F8004ECB93 /* loopManager.swift in Sources */,
+				C4DB4F7F22AC521C004ECB93 /* binding.swift in Sources */,
+				C4DB4F7A22AC51F7004ECB93 /* hotkey.swift in Sources */,
 				C4DB4F5F22AC5090004ECB93 /* main.swift in Sources */,
+				C4DB4F7922AC51F7004ECB93 /* key.swift in Sources */,
+				C4DB4F7B22AC51F7004ECB93 /* stringManipulation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
