@@ -56,8 +56,10 @@ Which just runs `/bin/sh` whenever we press `ctrl` with any arrow.
 
 Or like this:
 
+```
 keyset vimkeys h j k l
 binding ctrl+shift+vimkeys "/bin/sh $<vimkeys>"
+```
 
 Which runs `/bin/sh` at the press of `ctrl`, `shift` and any ky in the vimkeys keyset,
 but also sends the key pressed as vim key through to `sh` (and can be read as $0).
