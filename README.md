@@ -47,8 +47,10 @@ A keyset is defined like this:
 
 And can be used like this:
 
+```
 keyset arrow up down left right
 binding ctrl+arrow  "/bin/sh"
+```
 
 Which just runs `/bin/sh` whenever we press `ctrl` with any arrow. 
 
